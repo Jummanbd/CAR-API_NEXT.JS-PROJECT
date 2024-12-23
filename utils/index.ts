@@ -29,7 +29,7 @@ export const deleteSearchParams = (type: string) => {
 }
 
 export async function fetchCars(filters: FilterProps) {
-  const { manufacturer, year, model, limit, fuel } = filters
+  const { manufacturer, year, model, limit, fuel } = filters || {}
 
   const headers = {
     "x-rapidapi-key": "f7ee5d841emsh0b627e80cbd7357p102030jsn27849d45d4f2",

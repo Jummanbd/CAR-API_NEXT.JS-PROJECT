@@ -23,10 +23,6 @@ export interface FilterProps {
   fuel?: string
 }
 
-// export interface HomeProps {
-//   searchParams: FilterProps
-// }
-
 export interface CarCardProps {
   model: string
   make: string
